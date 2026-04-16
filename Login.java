@@ -4,7 +4,7 @@
  */
 public class Login {
 
-    // ── Fields ───────────────────────────────────────────────────────────────
+    // ── Class Level ───────────────────────────────────────────────────────────────
     private String firstName;
     private String lastName;
     private String username;
@@ -113,8 +113,7 @@ public class Login {
      * @return true if credentials match, false otherwise
      */
     public boolean loginUser(String enteredUsername, String enteredPassword) {
-        return this.username.equals(enteredUsername)
-            && this.password.equals(enteredPassword);
+        return this.username.equals(enteredUsername) && this.password.equals(enteredPassword);
     }
 
     /**

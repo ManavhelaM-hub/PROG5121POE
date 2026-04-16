@@ -4,7 +4,7 @@
  * Author    : Your Full Name
  * Student No: Your Student Number
  * Date      : April 2026
- * Purpose   : Unit tests for the Login class
+ * Purpose   : Unit testing for the Login class
  * ================================================
  */
 import org.junit.Test;
@@ -82,7 +82,7 @@ public class LoginTest {
     }
 
     // ═════════════════════════════════════════════
-    // CELL PHONE TESTS
+    // CELLPHONE TESTS
     // ═════════════════════════════════════════════
 
     @Test

@@ -27,7 +27,7 @@ public class app {
         System.out.print("Enter cell phone number  : ");
         String cellNumber = scanner.nextLine();
 
-        // ── Register ─────────────────────────────────────────────────────────
+        // ── Register─────────────────────────────────────────────────────────
         Login user = new Login(firstName, lastName, username, password, cellNumber);
         String registrationResult = user.registerUser();
         System.out.println("\n--- Registration Result ---");
